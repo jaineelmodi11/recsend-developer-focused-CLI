@@ -1,0 +1,23 @@
+Metadata-Version: 2.4
+Name: recsend
+Version: 0.1.0
+Summary: CLI for testing your movie recommendation backend with JSON/YAML request files
+License: MIT
+Project-URL: Homepage, https://github.com/yourusername/recsend
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Requires-Dist: click<9.0,>=8.1
+Requires-Dist: httpx<1.0.0,>=0.24
+Requires-Dist: PyYAML<7.0,>=6.0
+Requires-Dist: rich<14.0,>=13.3
+Requires-Dist: pytest<8.0,>=7.0
+Requires-Dist: respx<0.21,>=0.20
+
+# recsend
+
+CLI for testing your movie recommendation backend with JSON/YAML request files.
+
+## Installation
+
+```bash
+pip install recsend

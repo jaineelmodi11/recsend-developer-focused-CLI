@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "recsend"
+version = "0.1.0"
+description = "CLI for testing your movie recommendation backend with JSON/YAML request files"
+readme = "README.md"
+requires-python = ">=3.8"
+license = { text = "MIT" }
+
+# Dependencies must be an array of PEP 508 strings:
+dependencies = [
+  "click>=8.1,<9.0",
+  "httpx>=0.24,<1.0.0",
+  "PyYAML>=6.0,<7.0",
+  "rich>=13.3,<14.0",
+  "pytest>=7.0,<8.0",
+  "respx>=0.20,<0.21"
+]
+
+[project.urls]
+Homepage = "https://github.com/yourusername/recsend"
+
+[project.scripts]
+recsend = "recsend.cli:cli"

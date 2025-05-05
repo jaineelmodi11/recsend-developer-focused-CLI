@@ -1,0 +1,6 @@
+method: POST
+url: https://httpbin.org/post
+headers:
+  Content-Type: application/json
+body:
+  hello: world

@@ -1,0 +1,8 @@
+method: POST
+url: http://localhost:3000/swipe
+headers:
+  Authorization: Bearer YOUR_TOKEN
+body:
+  user_id: 123
+  movie_id: 456
+  direction: right

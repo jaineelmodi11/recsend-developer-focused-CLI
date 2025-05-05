@@ -1,0 +1,15 @@
+README.md
+pyproject.toml
+recsend/__init__.py
+recsend/cli.py
+recsend.egg-info/PKG-INFO
+recsend.egg-info/SOURCES.txt
+recsend.egg-info/dependency_links.txt
+recsend.egg-info/entry_points.txt
+recsend.egg-info/requires.txt
+recsend.egg-info/top_level.txt
+recsend/commands/__init__.py
+recsend/commands/send.py
+recsend/utils/__init__.py
+recsend/utils/http_client.py
+tests/test_send.py
