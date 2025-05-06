@@ -5,8 +5,7 @@
 
 Struggling with curl’s endless flags and manual scripting? recsend simplifies recommendation‑system testing into one human‑friendly config file and a single command.
 
-**recsend** is a simple, developer-focused CLI for testing movie recommendation backends via human-friendly YAML/JSON files.  
-Simulate likes/dislikes (“swipes”), manage test users in Firebase, and fetch personalized movie suggestions — all from your terminal.
+**recsend** is a simple, developer-focused CLI for testing movie recommendation backends via human-friendly YAML/JSON files. Simulate likes/dislikes (“swipes”), manage test users in Firebase, and fetch personalized movie suggestions — all from your terminal.
 
 ---
 
