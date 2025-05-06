@@ -19,5 +19,14 @@
 
 Make sure Python 3.8+ is installed.
 
+
+
+
+## 📄 Usage Examples
+
+### 🔄 Simulate a Swipe
+
 ```bash
+recsend swipe -f configs/swipe.yml
+
 pip install recsend
