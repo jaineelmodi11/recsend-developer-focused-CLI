@@ -19,8 +19,9 @@
 
 Make sure Python 3.8+ is installed.
 
-
-
+```bash
+pip install recsend
+```
 
 ## 📄 Usage Examples
 
@@ -28,5 +29,45 @@ Make sure Python 3.8+ is installed.
 
 ```bash
 recsend swipe -f configs/swipe.yml
+```
 
-pip install recsend
+### 🎯 Fetch Recommendations
+```bash
+recsend recommend -f configs/recommend.yml
+```
+
+### 👤 Push a Test User to Firebase
+```bash
+recsend push-user -f configs/user.yml
+```
+
+### 🌈 Enable Colorized Output
+```bash
+recsend push-user -f configs/user.yml
+```
+
+### 🧪 Redirect Output and Headers
+```bash
+recsend recommend -f configs/recommend.yml > response.json 2> metadata.log
+```
+
+
+## 📁 Sample Configuration (recommend.yml)
+```bash
+# configs/recommend.yml
+url: https://api.example.com/recommendations
+method: GET
+
+# HTTP headers
+headers:
+  Authorization: Bearer YOUR_API_TOKEN
+
+# Query parameters
+params:
+  user_id: test_user_123
+
+# Optional settings
+timeout: 10       # seconds
+retries: 2
+
+```
