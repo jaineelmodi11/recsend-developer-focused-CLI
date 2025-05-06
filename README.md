@@ -1,5 +1,5 @@
 <!-- 🎬 Movie Clapperboard Emoji for visual flair -->
-# 🎞️ recsend
+# 🎞️ RecSend
 
 [![PyPI version](https://img.shields.io/pypi/v/recsend)](https://pypi.org/project/recsend/) [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 
