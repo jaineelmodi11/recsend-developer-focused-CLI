@@ -36,8 +36,7 @@ pip install recsend
 ```bash
 pip3 install recsend
 ```
-
-
+---
 ## 📄 Quickstart & Usage
 
 ### 1. Create a config file (YAML or JSON) under configs/, for example:
@@ -71,7 +70,7 @@ recsend recommend -f configs/recommend.yml -c
 recsend recommend -f configs/recommend.yml \
   > response.json 2> metadata.log
 ```
-
+---
 ## 🧪 Sample Requests
 
 Below are example YAML files for all common HTTP methods.  
@@ -235,6 +234,18 @@ proxies:
   https: https://10.0.0.1:1080
 ```
 
+---
+
+## 🛠️ Development Setup
+
+Clone this repository and install the required packages:
+
+```bash
+git clone https://github.com/jaineelmodi11/recsend-developer-focused-CLI.git
+cd recsend-developer-focused-CLI
+pip3 install -r requirements.txt
+```
+---
 
 ## 🤝 Contributing
 1. Fork the repository
