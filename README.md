@@ -72,13 +72,16 @@ recsend recommend -f configs/recommend.yml \
   > response.json 2> metadata.log
 ```
 
-## 🧪 Testing
+## 🧪 Sample Requests
+
+Below are example YAML files for all common HTTP methods.  
+Use them with any subcommand, for example:
+
 ```bash
-git clone https://github.com/jaineelmodi11/recsend-developer-focused-CLI.git
-cd recsend-developer-focused-CLI
-pip install -r requirements.txt
-python -m unittest discover tests
-```
+recsend recommend -f configs/get_anime.yml       # GET example
+recsend swipe     -f configs/create_todo.yml     # POST example
+recsend swipe     -f configs/update_todo.yml     # PUT example
+recsend swipe     -f configs/delete_todo.yml     # DELETE example
 
 ## 🤝 Contributing
 
@@ -88,6 +91,37 @@ python -m unittest discover tests
 4, Push: git push origin feature/your-feature-name
 5. PR: Open a pull request and describe your changes
 6. Please follow existing code style and add tests for new features.
+```
 
+### 1. GET (XML response)
+```yaml
+# configs/get_anime.yml
+url: https://cdn.animenewsnetwork.com/encyclopedia/api.xml?anime=4658
+method: GET
 
+params:
+  offset: 2
+  limit: 100
 
+headers:
+  Accept: text/xml
+  Accept-Language: en
+
+timeout: 5   # seconds
+```
+
+```bash
+recsend recommend -f configs/get_anime.yml
+```
+
+### 2. File Download
+```yaml
+# configs/download_pythonlearn.yml
+url: http://do1.dr-chuck.com/pythonlearn/EN_us/pythonlearn.pdf
+method: GET
+timeout: 10
+```
+
+```bash
+recsend recommend -f configs/download_pythonlearn.yml > pythonlearn.pdf
+```
