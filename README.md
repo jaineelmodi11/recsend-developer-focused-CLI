@@ -237,8 +237,18 @@ proxies:
 
 
 ## 🤝 Contributing
-1. Fork the repo
-2. Branch: git checkout -b feature/your-feature-name
-3. Commit: git commit -m "Add awesome feature"
-4. Push: git push origin feature/your-feature-name
-5. PR: Open a pull request and describe your changes
+1. Fork the repository
+2. Create your feature branch
+   ```bash
+   git checkout -b feature/your-feature-name
+   ```
+3. Commit your changes
+   ```bash
+   git commit -m "Add your feature"
+   ```
+4. Push to the branch
+   ```bash
+   git push origin feature/your-feature-name
+   ```
+   
+5. Open a Pull Request and describe your work
