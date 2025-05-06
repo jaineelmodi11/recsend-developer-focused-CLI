@@ -1,28 +1,23 @@
-██████╗ ███████╗███████╗███████╗██████╗ ███████╗███╗   ██╗███████╗  
-██╔══██╗██╔════╝██╔════╝██╔════╝██╔══██╗██╔════╝████╗  ██║██╔════╝  
-██████╔╝█████╗  ███████╗█████╗  ██████╔╝█████╗  ██╔██╗ ██║█████╗    
-██╔═══╝ ██╔══╝  ╚════██║██╔══╝  ██╔══██╗██╔══╝  ██║╚██╗██║██╔══╝    
-██║     ███████╗███████║███████╗██║  ██║███████╗██║ ╚████║███████╗  
-╚═╝     ╚══════╝╚══════╝╚══════╝╚═╝  ╚═══╝╚══════╝╚═╝  ╚═══╝╚══════╝  
-------------------------------------------------------------------  
-A developer-focused CLI for testing your movie-recommendation backend via JSON/YAML files
+# recsend
 
-## Features
+**recsend** is a developer-focused CLI tool designed to interact with movie recommendation systems via structured YAML/JSON files. It allows developers and testers to simulate swipes, manage test users, and fetch personalized recommendations — all from the command line.
 
-- **JSON/YAML request files** to define any HTTP call (method, URL, headers, body, etc.)  
-- **Convenience subcommands** for your core flows:
-  - `swipe`      — simulate Tinder-style like/dislike  
-  - `recommend`  — fetch model recommendations  
-  - `push-user`  — create or update test users in Firebase  
-  - `log`        — inspect a user’s interaction history  
-- **Colorized output** for easy reading  
-- **I/O redirection**: body → stdout, headers/status → stderr  
-- **Installable** via `pip`, cross-platform (macOS, Linux, Windows)  
-- **Fully tested** with `pytest` and HTTP mocks  
+---
 
-## Installation
+## 🚀 Features
 
-> **Requires** Python 3.8+
+- 🔄 Simulate user **swipes** (like/dislike) to test interaction behavior.
+- 🎯 Get **movie recommendations** based on user profile or simulated activity.
+- 🔐 Manage and push **test users to Firebase** for backend testing.
+- 📁 Use simple **YAML or JSON files** to define request payloads.
+- 🌈 Optional **colorized output** for improved readability.
+- 📤 Clean output separation — responses to `stdout`, metadata to `stderr`.
+
+---
+
+## 📦 Installation
+
+Make sure Python 3.8+ is installed.
 
 ```bash
 pip install recsend
