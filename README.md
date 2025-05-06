@@ -32,6 +32,11 @@ Requires **Python 3.8+**
 ```bash
 pip install recsend
 ```
+**or**
+```bash
+pip3 install recsend
+```
+
 
 ## 📄 Quickstart & Usage
 
