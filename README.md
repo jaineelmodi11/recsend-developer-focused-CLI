@@ -246,7 +246,11 @@ cd recsend-developer-focused-CLI
 pip3 install -r requirements.txt
 ```
 ---
+📜 Meta
+Author: Jaineel Modi
+Repository home: https://github.com/jaineelmodi11/recsend-developer-focused-CLI
 
+---
 ## 🤝 Contributing
 1. Fork the repository
 2. Create your feature branch
