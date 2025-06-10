@@ -1,7 +1,7 @@
 <!-- 🎬 Movie Clapperboard Emoji for visual flair -->
 # 🎞️ RecSend
 
-[![PyPI version](https://img.shields.io/pypi/v/recsend)](https://pypi.org/project/recsend/) [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 
 Struggling with curl’s endless flags and manual scripting? **RecSend** simplifies recommendation‑system testing into one human‑friendly config file and a single command. Simulate likes/dislikes (“swipes”), manage test users in Firebase, and fetch personalized movie suggestions, all from your terminal.
 
